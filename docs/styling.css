@@ -18,8 +18,35 @@ h1{
         display:flex;
         
     }
+    .about img{
+        width: 50%;
+        border: 5px dotted white;
+        border-radius: 50%;
+        width: 85%;
+        margin-top: 40px;
+        margin-left: 10px;
+        padding: 10px;
+        transition: 0.2s ease-in-out;
+        box-sizing: border-box;
+    }
+    .about img:hover{
+        padding:17px;
+    }
+    .about p{
+        width:100%;
+    }
     .rows :hover{
         background-color: gray;
+    }
+    .para{
+        width:90%;
+        border: 1px solid white;
+        margin-top: 50px;
+        transition: 0.2s ease-in-out;
+        box-sizing: border-box;
+    }
+    .para:hover{
+        padding: 15px;
     }
     .hvr{
         color:chocolate;
@@ -33,6 +60,10 @@ h1{
     .img_rows img{
         width:100%;
         height:100%;
+    }
+    .img{
+        box-sizing: border-box;
+        padding:0;
     }
     .icons{
         background-color: black;
@@ -67,6 +98,7 @@ h1{
         /*min-width: 50%;*/
         box-sizing: border-box;
     }
+
 @media (max-width: 768px) {
   .flex-container {
     flex-direction: column;
@@ -81,6 +113,12 @@ h1{
   img {
     max-width: 100%;
     height: auto;
+  }
+  .about img{
+    width:90%;
+  }
+  .about p{
+    width:100%
   }
 }
 @media (min-width: 1000px) {
