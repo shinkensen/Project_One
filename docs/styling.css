@@ -51,6 +51,7 @@ h1{
     .home:hover{
         background-color: gray;
         border-color: gray;
+        transition: 0.3s ease-in-out
     }
     .text_rows{
         width: 100%;
