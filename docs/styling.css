@@ -61,9 +61,28 @@ h1{
         width:100%;
         height:100%;
     }
+    .text{
+        transition: 0.3s ease-in-out;
+    }
+    .text:hover{
+        transform: scale(1.05);
+    }
+    .img2{
+        box-sizing: border-box;
+        padding:0;
+        transition: 0.3s ease-in-out;
+    }
+    .img2:hover{
+        transform: scale(1.05);
+    }
     .img{
         box-sizing: border-box;
         padding:0;
+        transition: 0.3s ease-in-out;
+    }
+    .img:hover{
+        height:40%;
+        width: 40%;
     }
     .icons{
         background-color: black;
@@ -87,10 +106,15 @@ h1{
     .text_rows{
         width: 100%;
         min-width: 10px;
+        min-height: 200px;
         padding-left: 10px;
         text-align: center;
         border-top: 1px solid white;
         border-bottom:1px solid white;
+        transition: 0.3s ease-in-out;
+    }
+    .text_rows:hover{
+        transform: scale(1.05);
     }
     .flex-child{
         /*width: 50%;*/
@@ -106,7 +130,11 @@ h1{
   .flex-container>div{
     width:100%;
   }
-
+  .img:hover{
+        height:101%;
+        width: 101%;
+    }
+    
   .flex-child {
     width: 100%;
   }
@@ -129,6 +157,14 @@ h1{
         width:25%;
     }
     .img img{
+        width:100%;
+        height:auto;
+        display: block;
+    }
+    .img2{
+        width:25%;
+    }
+    .img2 img{
         width:100%;
         height:auto;
         display: block;
