@@ -12,12 +12,20 @@ h1{
         display:flex;
         
     }
+    .rows :hover{
+        background-color: gray;
+    }
+    .hvr{
+        color:chocolate;
+    }
+    .hvr:hover{
+        color: white;
+    }
     .img_rows{
         width:20%;
     }
     .img_rows img{
         width:100%;
-        max-width: 400px;
         height:100%;
     }
     .text_rows{
