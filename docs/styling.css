@@ -1,6 +1,12 @@
 h1{
         margin: 0;
     }
+    .header{
+        flex: 1;
+        text-align: center;
+        background-color: black;
+        padding-top: 15px;
+    }
     body{
         background-color: rgb(50, 50, 50);
         margin:0;
@@ -27,6 +33,24 @@ h1{
     .img_rows img{
         width:100%;
         height:100%;
+    }
+    .icons{
+        background-color: black;
+        border-bottom: 1px dotted white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .icons h2:hover{
+        color:gray;
+        text-decoration: dashed;
+    }
+    .home{
+        width:30px;height:30px;border-radius:100px;border:5px solid white; background-color: white;margin-top: 10px; margin-left: 10px;
+    }
+    .home:hover{
+        background-color: gray;
+        border-color: gray;
     }
     .text_rows{
         width: 100%;
