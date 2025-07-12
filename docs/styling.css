@@ -123,6 +123,51 @@ h1{
         box-sizing: border-box;
     }
 
+    .skibidi-font {
+    font-family: "Bitcount Grid Double", system-ui;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-style: normal;
+     font-variation-settings:
+     "slnt" 0,
+     "CRSV" 0.5,
+     "ELSH" 0,
+     "ELXP" 0;
+    }
+    @keyframes lmao{
+        0% {
+            transform: translateX(0);
+        }
+        10% {
+            transform: translateX(-5px);
+        }
+        20% {
+            transform: translateX(5px);
+        }30% {
+            transform: translateX(10px);
+        }40% {
+            transform: translateX(-10px);
+        }50% {
+            transform: translateX(-10px);
+        }60% {
+            transform: translateX(10px);
+        }70% {
+            transform: translateX(5px);
+        }
+        80% {
+            transform: translateX(-5px);
+        }
+        90% {
+            transform: translateX(-5px);
+        }
+        100% {
+            transform: translateX(5px);
+        }
+    }
+    .skibidi-font:hover{
+    animation: lmao 1s ease-in-out;
+    font-weight: 900;
+    }
 @media (max-width: 768px) {
   .flex-container {
     flex-direction: column;
