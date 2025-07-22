@@ -18,6 +18,21 @@ h1{
         display:flex;
         
     }
+    .hvr3{
+        height:70px;
+        transition: ease-in-out 0.3s;
+    }
+    .hvr3:hover{
+        height:110px;
+    }
+    .hvr2{
+        height: 210px;
+        transition: ease-in-out 0.3s;
+        background-color:rgb(242,242,242)
+    }
+    .hvr2:hover{
+        height: 250px;
+    }
     .about img{
         width: 50%;
         border: 5px dotted white;
